@@ -30,6 +30,7 @@ article {
   color: rgb(139, 148, 158);
   font-size: 1.125rem;
   box-sizing: border-box;
+  padding-bottom: 400px;
 }
 h1 {
   font-size: 3.0rem;
@@ -40,6 +41,10 @@ h1 {
 p {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+}
+
+p.description {
+  margin-bottom: 3rem;
 }
 
 .Tabs {

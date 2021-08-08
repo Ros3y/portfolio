@@ -4,7 +4,7 @@ function PageLayout({ title, desciption, images }) {
   return (
     <article>
       <h1>{title}</h1>
-      <p>{desciption}</p>
+      <p className="description">{desciption}</p>
       <div className="Gallery">
         {images.map((image) => {
           return (

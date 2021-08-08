@@ -61,9 +61,9 @@ const gameImages = [
 
 const artImages = [
   {
-    text: '3D Models',
-    image: BasemeshThumbnail,
-    link: '/models',
+    text: 'Vector Art',
+    image: VectorThumbnail,
+    link: '/vectorart',
   },
   {
     text: 'Pixel Art',
@@ -71,9 +71,9 @@ const artImages = [
     link: '/pixelart',
   },
   {
-    text: 'Vector Art',
-    image: VectorThumbnail,
-    link: '/vectorart',
+    text: '3D Models',
+    image: BasemeshThumbnail,
+    link: '/models',
   },
 ];
 
@@ -121,15 +121,15 @@ function Home() {
   return (
     <article>
       <h1>Zach Rowe</h1>
-      <p>
-        Zach is a game developer with a focus in gameplay engineering. He
-        recently completed his B.S. in Computer Science and is actively seeking
-        job opportunities. Zach has been making games since 2012 and also has a
-        background in art making him a versatile game developer that can bridge
-        the gap between multiple disciplines.
+      <p className="description">
+        I am a game designer with a passion for creation. I've been designing
+        games since 2012 and eventually decided to go to art school to broaden
+        my skills. Wanting to bring my designs to life, I shifted pursuits to
+        engineering and earned a B.S. in Computer Science at Purdue University
+        Northwest. My strength as a designer comes from my experience as both an
+        artist and an engineer, allowing me to bridge the gap between multiple
+        disciplines.
       </p>
-      <br />
-      <br />
       <div className="Tabs">
         {Object.keys(categories).map((key) => {
           const value = categories[key];
@@ -190,12 +190,6 @@ function Home() {
           </React.Fragment>
         )}
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </article>
   );
 }
