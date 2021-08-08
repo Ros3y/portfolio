@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.86a8b8b1.chunk.css",
-    "main.js": "/static/js/main.22d1066e.chunk.js",
-    "main.js.map": "/static/js/main.22d1066e.chunk.js.map",
+    "main.css": "/static/css/main.56b9ae26.chunk.css",
+    "main.js": "/static/js/main.8f0eb693.chunk.js",
+    "main.js.map": "/static/js/main.8f0eb693.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.930ff66c.js",
     "runtime-main.js.map": "/static/js/runtime-main.930ff66c.js.map",
     "static/js/2.e7b1558d.chunk.js": "/static/js/2.e7b1558d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.22af7048.chunk.js": "/static/js/3.22af7048.chunk.js",
     "static/js/3.22af7048.chunk.js.map": "/static/js/3.22af7048.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.86a8b8b1.chunk.css.map": "/static/css/main.86a8b8b1.chunk.css.map",
+    "static/css/main.56b9ae26.chunk.css.map": "/static/css/main.56b9ae26.chunk.css.map",
     "static/js/2.e7b1558d.chunk.js.LICENSE.txt": "/static/js/2.e7b1558d.chunk.js.LICENSE.txt",
     "static/media/Alien-animation.018592b4.gif": "/static/media/Alien-animation.018592b4.gif",
     "static/media/Alien-run-animation.5d09c4e6.gif": "/static/media/Alien-run-animation.5d09c4e6.gif",
@@ -19,12 +19,15 @@
     "static/media/Broadsword.3f2448af.png": "/static/media/Broadsword.3f2448af.png",
     "static/media/Button2.4f5881ac.png": "/static/media/Button2.4f5881ac.png",
     "static/media/Button3.c51efac8.png": "/static/media/Button3.c51efac8.png",
+    "static/media/Buzz.2c85e3a0.png": "/static/media/Buzz.2c85e3a0.png",
     "static/media/Coa-photo.fce711b2.png": "/static/media/Coa-photo.fce711b2.png",
+    "static/media/Coa-village.eec32cd9.png": "/static/media/Coa-village.eec32cd9.png",
     "static/media/Cube-Grass.c44da2a8.png": "/static/media/Cube-Grass.c44da2a8.png",
     "static/media/Cube-Jellitin.0edc5484.png": "/static/media/Cube-Jellitin.0edc5484.png",
     "static/media/Cube-Metal.b349d25f.png": "/static/media/Cube-Metal.b349d25f.png",
     "static/media/Cube-Stone.d2f08698.png": "/static/media/Cube-Stone.d2f08698.png",
     "static/media/Cube-Wood.8b1d3c69.png": "/static/media/Cube-Wood.8b1d3c69.png",
+    "static/media/Dug.1c41a499.png": "/static/media/Dug.1c41a499.png",
     "static/media/Evil-emote.56ece7a2.png": "/static/media/Evil-emote.56ece7a2.png",
     "static/media/Fault.0d718e5b.png": "/static/media/Fault.0d718e5b.png",
     "static/media/Goblin-front.da0f5b19.png": "/static/media/Goblin-front.da0f5b19.png",
@@ -35,6 +38,7 @@
     "static/media/Muscles-front.6aa9b566.png": "/static/media/Muscles-front.6aa9b566.png",
     "static/media/Muscles-side.ed4b6f72.png": "/static/media/Muscles-side.ed4b6f72.png",
     "static/media/Nudge.4cc7f4d4.png": "/static/media/Nudge.4cc7f4d4.png",
+    "static/media/Ook.0c4104b1.png": "/static/media/Ook.0c4104b1.png",
     "static/media/Purple-slime-dash.050d2599.gif": "/static/media/Purple-slime-dash.050d2599.gif",
     "static/media/Question.73d4bc15.gif": "/static/media/Question.73d4bc15.gif",
     "static/media/Red-slime-dash.84e423ac.gif": "/static/media/Red-slime-dash.84e423ac.gif",
@@ -53,14 +57,20 @@
     "static/media/squishem-thumbnail.a373fc08.jpg": "/static/media/squishem-thumbnail.a373fc08.jpg",
     "static/media/the-rise-thumbnail.ab10828f.jpg": "/static/media/the-rise-thumbnail.ab10828f.jpg",
     "static/media/twitch-emote-thumbnail.723b529a.png": "/static/media/twitch-emote-thumbnail.723b529a.png",
+    "static/media/zigurous-emblem.66703d4a.png": "/static/media/zigurous-emblem.66703d4a.png",
+    "static/media/zigurous-logo-dark.8fa33238.png": "/static/media/zigurous-logo-dark.8fa33238.png",
+    "static/media/zigurous-poster-logo.584d81b2.png": "/static/media/zigurous-poster-logo.584d81b2.png",
+    "static/media/zigurous-shirt-emblem.9f2cf50d.png": "/static/media/zigurous-shirt-emblem.9f2cf50d.png",
+    "static/media/zigurous-tagline.0e24f912.png": "/static/media/zigurous-tagline.0e24f912.png",
     "static/media/zigurous-thumbnail.13a6f3e7.png": "/static/media/zigurous-thumbnail.13a6f3e7.png",
     "static/media/zr-dark.e4b96627.png": "/static/media/zr-dark.e4b96627.png",
-    "static/media/zr-thumbnail.ca33cc08.png": "/static/media/zr-thumbnail.ca33cc08.png"
+    "static/media/zr-thumbnail.ca33cc08.png": "/static/media/zr-thumbnail.ca33cc08.png",
+    "static/media/zr-triangle.454d10c1.png": "/static/media/zr-triangle.454d10c1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.930ff66c.js",
     "static/js/2.e7b1558d.chunk.js",
-    "static/css/main.86a8b8b1.chunk.css",
-    "static/js/main.22d1066e.chunk.js"
+    "static/css/main.56b9ae26.chunk.css",
+    "static/js/main.8f0eb693.chunk.js"
   ]
 }
