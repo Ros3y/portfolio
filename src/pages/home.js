@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import sputnikThumbnail from '../images/Games/Sputnik-thumbnail.png';
 import escapeTheBasementThumbnail from '../images/Games/escape-the-basement-thumbnail.jpg';
 import escapeTheEstateThumbnail from '../images/Games/escape-the-estate-thumbnail.jpg';
@@ -12,8 +14,6 @@ import ZrThumbnail from '../images/Graphic/zr-thumbnail.png';
 import ZigurousThumbnail from '../images/Graphic/zigurous-thumbnail.png';
 import CoaThumbnail from '../images/Graphic/coa-thumbnail.png';
 import TwitchThumbnail from '../images/Graphic/twitch-emote-thumbnail.png';
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const categories = {
   games: 'Games',

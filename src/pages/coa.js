@@ -1,8 +1,8 @@
+import React from 'react';
+import PageLayout from '../components/PageLayout';
 import Coa1 from '../images/Graphic/coa-thumbnail.png';
 import Coa2 from '../images/Graphic/coa-title.png';
 import Coa3 from '../images/Graphic/Coa-photo.png';
-import React from 'react';
-import PageLayout from '../components/PageLayout';
 import Coa4 from '../images/Graphic/Coa-village.png';
 
 const images = [Coa1, Coa2, Coa3, Coa4];

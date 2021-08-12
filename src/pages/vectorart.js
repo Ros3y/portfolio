@@ -1,3 +1,5 @@
+import React from 'react';
+import PageLayout from '../components/PageLayout';
 import Button1 from '../images/Vector/Button1.png';
 import Button2 from '../images/Vector/Button2.png';
 import Button3 from '../images/Vector/Button3.png';
@@ -17,8 +19,6 @@ import Freak from '../images/Vector/Zeek-Freak-thumbnail.png';
 import Dug from '../images/Vector/Dug.png';
 import Buzz from '../images/Vector/Buzz.png';
 import Ook from '../images/Vector/Ook.png';
-import React, { useState } from 'react';
-import PageLayout from '../components/PageLayout';
 
 const images = [
   Freak,

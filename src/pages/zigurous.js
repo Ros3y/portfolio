@@ -1,12 +1,11 @@
+import React from 'react';
+import PageLayout from '../components/PageLayout';
 import Zig1 from '../images/Graphic/zigurous-poster-logo.png';
 import Zig2 from '../images/Graphic/zigurous-shirt-emblem.png';
 import Zig3 from '../images/Graphic/zigurous-emblem.png';
 import Zig4 from '../images/Graphic/zigurous-logo-dark.png';
 import Zig5 from '../images/Graphic/zigurous-tagline.png';
 import Zig6 from '../images/Graphic/zigurous-thumbnail.png';
-
-import React from 'react';
-import PageLayout from '../components/PageLayout';
 
 const images = [Zig6, Zig1, Zig2, Zig3, Zig4, Zig5];
 
