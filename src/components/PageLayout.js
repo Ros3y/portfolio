@@ -8,8 +8,8 @@ function PageLayout({ title, desciption, images }) {
       <div className="Gallery">
         {images.map((image) => {
           return (
-            <div className="Gallery__Item">
-              <img src={image} />
+            <div className="Gallery__Item" key={image}>
+              <img alt="" src={image} />
             </div>
           );
         })}
