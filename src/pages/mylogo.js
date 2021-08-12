@@ -1,8 +1,8 @@
+import React from 'react';
+import PageLayout from '../components/PageLayout';
 import ZrLight from '../images/Graphic/zr-thumbnail.png';
 import ZrDark from '../images/Graphic/zr-dark.png';
 import ZrTriangle from '../images/Graphic/zr-triangle.png';
-import React, { useState } from 'react';
-import PageLayout from '../components/PageLayout';
 
 const images = [ZrLight, ZrDark, ZrTriangle];
 

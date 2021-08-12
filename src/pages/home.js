@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import sputnikThumbnail from '../images/Games/Sputnik-thumbnail.png';
 import escapeTheBasementThumbnail from '../images/Games/escape-the-basement-thumbnail.jpg';
 import escapeTheEstateThumbnail from '../images/Games/escape-the-estate-thumbnail.jpg';
@@ -12,8 +14,6 @@ import ZrThumbnail from '../images/Graphic/zr-thumbnail.png';
 import ZigurousThumbnail from '../images/Graphic/zigurous-thumbnail.png';
 import CoaThumbnail from '../images/Graphic/coa-thumbnail.png';
 import TwitchThumbnail from '../images/Graphic/twitch-emote-thumbnail.png';
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const categories = {
   games: 'Games',
@@ -133,7 +133,7 @@ function Home() {
       <div className="Tabs">
         {Object.keys(categories).map((key) => {
           const value = categories[key];
-          const active = category == value;
+          const active = category === value;
           return (
             <button
               className={active ? 'active' : ''}
@@ -151,9 +151,9 @@ function Home() {
           <React.Fragment>
             {gameImages.map((thumbnail) => {
               return (
-                <div className="Thumbnails__Item">
-                  <a href={thumbnail.link} target="_blank">
-                    <img src={thumbnail.image} />
+                <div className="Thumbnails__Item" key={thumbnail.link}>
+                  <a href={thumbnail.link} rel="noreferrer" target="_blank">
+                    <img alt={thumbnail.text} src={thumbnail.image} />
                   </a>
                   <h5>{thumbnail.text}</h5>
                 </div>
@@ -165,9 +165,9 @@ function Home() {
           <React.Fragment>
             {artImages.map((thumbnail) => {
               return (
-                <div className="Thumbnails__Item">
+                <div className="Thumbnails__Item" key={thumbnail.link}>
                   <Link to={thumbnail.link}>
-                    <img src={thumbnail.image} />
+                    <img alt={thumbnail.text} src={thumbnail.image} />
                   </Link>
                   <h4>{thumbnail.text}</h4>
                 </div>
@@ -179,9 +179,9 @@ function Home() {
           <React.Fragment>
             {graphicDesignImages.map((thumbnail) => {
               return (
-                <div className="Thumbnails__Item">
+                <div className="Thumbnails__Item" key={thumbnail.link}>
                   <Link to={thumbnail.link}>
-                    <img src={thumbnail.image} />
+                    <img alt={thumbnail.text} src={thumbnail.image} />
                   </Link>
                   <h4>{thumbnail.text}</h4>
                 </div>
