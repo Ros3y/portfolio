@@ -43,13 +43,7 @@ const images = [
 ];
 
 function VectorArt() {
-  return (
-    <PageLayout
-      title="Vector Art"
-      desciption="Vector art is really where I got my start as a game developer making flash games as a teenager. I went through many changes in both my style and ability from creating these games. Unfortunately not every one of those games made it all the way through the production process. This is in part because I was young and inexperienced so I tended to jump from project to project. These images below are a culmination of experience I gained along the way. I was the solo artist for most of the games my friends and I created back then so I had to develop skills in areas from character design to weapons and ui elements. It was daunting at first but after a year or so I really found my own style and my efficiency for creating got much faster."
-      images={images}
-    />
-  );
+  return <PageLayout title="Vector Art" images={images} />;
 }
 
 export default VectorArt;

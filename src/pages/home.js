@@ -7,6 +7,8 @@ import theRiseThumbnail from '../images/Games/the-rise-thumbnail.jpg';
 import lunarEscapeThumbnail from '../images/Games/lunar-escape-thumbnail.jpg';
 import ancientOdysseyThumbnail from '../images/Games/ancient-odyssey-thumbnail.jpg';
 import squishemThumbnail from '../images/Games/squishem-thumbnail.jpg';
+import WvBThumbnail from '../images/Games/WvB-thumbnail.png';
+import SaMThumbnail from '../images/Games/S&M-thumbnail.png';
 import BasemeshThumbnail from '../images/Models/Basemesh-front-thumbnail.png';
 import PixelThumbnail from '../images/Pixel/Alien-animation.gif';
 import VectorThumbnail from '../images/Vector/Zeek-Freak-thumbnail.png';
@@ -14,18 +16,32 @@ import ZrThumbnail from '../images/Graphic/zr-thumbnail.png';
 import ZigurousThumbnail from '../images/Graphic/zigurous-thumbnail.png';
 import CoaThumbnail from '../images/Graphic/coa-thumbnail.png';
 import TwitchThumbnail from '../images/Graphic/twitch-emote-thumbnail.png';
+import game1Thumbnail from '../images/Videos/game-1-thumbnail.png';
+import game2Thumbnail from '../images/Videos/game-2-thumbnail.png';
+import game3Thumbnail from '../images/Videos/game-3-thumbnail.png';
 
 const categories = {
   games: 'Games',
   art: 'Art & Animation',
   graphic: 'Graphic Design',
+  videos: 'Videos',
 };
 
 const gameImages = [
   {
     text: 'Solo Developer',
     image: sputnikThumbnail,
-    link: 'https://zachrowe.itch.io/sputnik',
+    link: 'https://ros3y.itch.io/sputnik',
+  },
+  {
+    text: 'Solo Developer',
+    image: SaMThumbnail,
+    link: 'https://ros3y.itch.io/smoke-mirrors',
+  },
+  {
+    text: 'Solo Developer',
+    image: WvBThumbnail,
+    link: 'https://ros3y.itch.io/wizards-vs-builders',
   },
   {
     text: 'Lead Artist, Designer',
@@ -99,6 +115,32 @@ const graphicDesignImages = [
     link: '/twitchemotes',
   },
 ];
+
+const videos = [
+  {
+    text: 'I made an ESCAPE Game, BUT its all Smoke and Mirrors?',
+    image: game3Thumbnail,
+    link: 'https://www.youtube.com/watch?v=ULLUhXiU_ak',
+  },
+
+  {
+    text: 'I made a game with Fighting WIZARDS vs BUILDERS?',
+    image: game2Thumbnail,
+    link: 'https://www.youtube.com/watch?v=411fL8yKP1c',
+  },
+
+  {
+    text: 'I created a Sci-fi FPS game in ONE day!',
+    image: game1Thumbnail,
+    link: 'https://www.youtube.com/watch?v=4Zi1_6Itd5s',
+  },
+
+  {
+    text: 'Sputnik Trailer',
+    image: sputnikThumbnail,
+    link: 'https://www.youtube.com/watch?v=1JkuZBE2QQ0',
+  },
+];
 function setSavedCategory(category) {
   if (category && typeof sessionStorage !== 'undefined') {
     sessionStorage.setItem('category', category);
@@ -122,7 +164,7 @@ function Home() {
     <article>
       <h1>Zach Rowe</h1>
       <p className="description">
-        I am a game designer with a passion for creation. I've been designing
+        I am a game developer with a passion for creation. I've been designing
         games since 2012 and eventually decided to go to art school to broaden
         my skills. Wanting to bring my designs to life, I shifted pursuits to
         engineering and earned a B.S. in Computer Science at Purdue University
@@ -183,6 +225,20 @@ function Home() {
                   <Link to={thumbnail.link}>
                     <img alt={thumbnail.text} src={thumbnail.image} />
                   </Link>
+                  <h4>{thumbnail.text}</h4>
+                </div>
+              );
+            })}
+          </React.Fragment>
+        )}
+        {category === categories.videos && (
+          <React.Fragment>
+            {videos.map((thumbnail) => {
+              return (
+                <div className="Thumbnails__Item" key={thumbnail.link}>
+                  <a href={thumbnail.link} rel="noreferrer" target="_blank">
+                    <img alt={thumbnail.text} src={thumbnail.image} />
+                  </a>
                   <h4>{thumbnail.text}</h4>
                 </div>
               );
