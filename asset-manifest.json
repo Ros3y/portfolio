@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4c4ef06b.chunk.css",
-    "main.js": "/static/js/main.e82c28bf.chunk.js",
-    "main.js.map": "/static/js/main.e82c28bf.chunk.js.map",
+    "main.js": "/static/js/main.1ff80e6b.chunk.js",
+    "main.js.map": "/static/js/main.1ff80e6b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.930ff66c.js",
     "runtime-main.js.map": "/static/js/runtime-main.930ff66c.js.map",
     "static/js/2.e7b1558d.chunk.js": "/static/js/2.e7b1558d.chunk.js",
@@ -43,7 +43,7 @@
     "static/media/Question.73d4bc15.gif": "/static/media/Question.73d4bc15.gif",
     "static/media/Red-slime-dash.84e423ac.gif": "/static/media/Red-slime-dash.84e423ac.gif",
     "static/media/Rng-emote.eecc1e8b.png": "/static/media/Rng-emote.eecc1e8b.png",
-    "static/media/S&M-thumbnail.f8ffdad4.png": "/static/media/S&M-thumbnail.f8ffdad4.png",
+    "static/media/S&M-thumbnail.837bc11c.png": "/static/media/S&M-thumbnail.837bc11c.png",
     "static/media/Sputnik-thumbnail.3d7d1df3.png": "/static/media/Sputnik-thumbnail.3d7d1df3.png",
     "static/media/Swords.a47cbf8b.png": "/static/media/Swords.a47cbf8b.png",
     "static/media/Target.37816b19.png": "/static/media/Target.37816b19.png",
@@ -76,6 +76,6 @@
     "static/js/runtime-main.930ff66c.js",
     "static/js/2.e7b1558d.chunk.js",
     "static/css/main.4c4ef06b.chunk.css",
-    "static/js/main.e82c28bf.chunk.js"
+    "static/js/main.1ff80e6b.chunk.js"
   ]
 }
